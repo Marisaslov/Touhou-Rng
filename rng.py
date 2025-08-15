@@ -128,7 +128,7 @@ if random_element == TouHou[1]:
 
 if random_element == TouHou[2]:
   print("""
-              .....=#                            %+:........:-@    @#**+**+=::=+*@                                
+.....=#                            %+:........:-@    @#**+**+=::=+*@                                
 ...:%                             #:@=*#::----:-=-**+***%@*--*%                                     
 ...%                              =.=.+   %++=--=-:=#@    @@                                        
 ..=                              #-.::*   @#***#+-:-#                                               
@@ -186,4 +186,5 @@ if random_element == TouHou[2]:
               """)
 print("You got Sanae!")
 input(next)
+
 quit()
