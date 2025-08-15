@@ -1,0 +1,44 @@
+import os 
+import random
+from PIL import Image
+import io
+
+BasePath = os.path.dirname(__file__)
+MaPath = os.path.join(BasePath, "Marisa.png")
+RePath = os.path.join(BasePath, "Reimu.png")
+SaPath = os.path.join(BasePath, "Sanae.png")
+
+next = "Contine..."
+Chances = [1, 2, 3]
+random_element = random.choice(Chances)
+
+if random_element == Chances[0]:
+ with open(MaPath, "rb") as f:
+    data = f.read()
+
+    image = Image.open(io.BytesIO(data))
+    image.show()
+
+print("you got Marisa!")
+input(next)
+
+
+if random_element == Chances[1]:
+ with open(RePath, "rb") as f:
+    data = f.read()
+
+    image = Image.open(io.BytesIO(data))
+    image.show()
+
+print("you got Reimu!")
+input(next)
+
+if random_element == Chances[2]:
+ with open(SaPath, "rb") as f:
+    data = f.read()
+
+    image = Image.open(io.BytesIO(data))
+    image.show()
+
+print("you got Sanae!")
+input(next)
