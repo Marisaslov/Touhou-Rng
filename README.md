@@ -1,2 +1,2 @@
-# a python program that displays reimu marisa or sanae randomly 
+# A python program that displays Reimu Marisa or Sanae randomly 
 * YOU WILL NEED PILLOW FOR RNG2
