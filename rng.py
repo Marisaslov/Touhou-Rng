@@ -63,8 +63,8 @@ if random_element == TouHou[0]:
                     """)
     print("you got Marisa!")
     input(next)
+    quit()
     
-
 if random_element == TouHou[1]:
     print("""
                                  @==#@                      @%##-=#                                 
@@ -124,10 +124,10 @@ if random_element == TouHou[1]:
           """)
     print("You got Reimu!")
     input(next)
+    quit()
 
-
-    if random_element == TouHou[2]:
-        print("""
+if random_element == TouHou[2]:
+  print("""
               .....=#                            %+:........:-@    @#**+**+=::=+*@                                
 ...:%                             #:@=*#::----:-=-**+***%@*--*%                                     
 ...%                              =.=.+   %++=--=-:=#@    @@                                        
@@ -184,5 +184,6 @@ if random_element == TouHou[1]:
                @#**###**#**##**##%%%%%%%%%%%%%%%%%%@@@@@@@%%@@@@ @#=----......:*               @@@@@
                #*####******##***#%%%%%%%%%%%%%%%%%%@%%%@@%@@@@%%@  @*=--:-=+=:-*           @@@%%%%%%
               """)
-        print("You got Sanae!")
-    input(next)
+print("You got Sanae!")
+input(next)
+quit()
